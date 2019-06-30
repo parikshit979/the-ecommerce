@@ -41,20 +41,6 @@ For production environments...
 $ APP_SETTINGS=production python run.py
 ```
 
-### DB Setup
-  - Initialize Database
-  ```sh
-        $ APP_SETTINGS=development python migrate.py db int
-  ```
-  - Migrate Database
-  ```sh
-        $ APP_SETTINGS=development python migrate.py db migrate
-  ```
-  - Apply Upgrade
-  ```sh
-        $ APP_SETTINGS=development python migrate.py db upgrade
-  ```
-
 ### Docker
 Ecommerce is very easy to install and deploy in a Docker container.
 
